@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Antarctica History</title>
 </head>
 <style>
     body {
         border: 0;
         margin: 0;
+        height: 100vh;
         background-image: url(antarctica-background.jpg);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        font-family: 'Montserrat', sans-serif;
         color: white;
     }
     header, p {
         text-align: center;
+    }
+    h1 {
+        font-family: 'Bitter', serif;
+    }
+    #timeline {
+        width: 100vw;
+        max-width: 700px;
+        display: block;
+        margin: auto;
+    }
+    .event-tile {
+        background-color: white;
+        color: black;
     }
     #huggards {
         font-family: 'Merriweather', serif;
@@ -41,11 +62,20 @@
 <body>
     <header>
         <h4>Welcome to the</h4>
-        <h1>History <em>of</em> Antarctica</h1>
+        <h1>History</h1>
+        <h3><em>of</em></h2>  
+        <h1>Antarctica</h1>
     </header>
     <p>
         This is under construction. Please check back in a couple of months.
     </p>
+    <div id="timeline">
+        <div class="event-tile">
+            <h2>1959</h2>
+            <h3>Antarctic Treaty</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+    </div>
     <div id="huggards" onclick="window.location.href='https://antonhuggard.com'">
         website by Anton Huggard
     </div>
