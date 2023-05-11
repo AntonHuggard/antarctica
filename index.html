@@ -14,10 +14,12 @@
     body {
         border: 0;
         margin: 0;
-        height: 100vh;
+        height: 100%;
         background-image: url(antarctica-background.jpg);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         font-family: 'Montserrat', sans-serif;
         color: white;
     }
@@ -36,6 +38,19 @@
     .event-tile {
         background-color: white;
         color: black;
+    }
+    .event-tile h2 {
+        text-align: center;
+    }
+    #timeline hr {
+        width: 100%;
+        border: 2px solid white;
+        /* color: white; */
+    }
+    #timeline .age-marker {
+        background-color: rgba(13, 69, 190, 0.329);
+        text-align: center;
+        padding: 10px;
     }
     #huggards {
         font-family: 'Merriweather', serif;
@@ -67,12 +82,52 @@
         <h1>Antarctica</h1>
     </header>
     <p>
-        This is under construction. Please check back in a couple of months.
+        This is work in progress. Please check back in a couple of months.
     </p>
     <div id="timeline">
         <div class="event-tile">
-            <h2>1959</h2>
-            <h3>Antarctic Treaty</h3>
+            <h2>1959 - Antarctic Treaty</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <hr>
+        <h2 class="age-marker">Heroic Age of Exploration</h2>
+        <hr>
+        <div class="event-tile">
+            <h2>1917 - Imperial Trans-Antarctic Expedition</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <hr>
+        <h2 class="age-marker">Discovery</h2>
+        <hr>
+        <div class="event-tile">
+            <h2>1853 - Landing on East Antarctica</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2>1821 - Landing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2>1819 - First Sighting (William Smith)</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2>1773 - James Cook</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2>1675 - Anthony de la Roche</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <hr>
+        <h2 class="age-marker">Speculation & Legend</h2>
+        <hr>
+        <div class="event-tile">
+            <h2>c. 1200 - Hui Te Rangiora</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2>c. 340 BC - Aristotle</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
         </div>
     </div>
