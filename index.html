@@ -8,72 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Antarctica History</title>
 </head>
-<style>
-    body {
-        border: 0;
-        margin: 0;
-        height: 100%;
-        background-image: url(antarctica-background.jpg);
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-    }
-    header, p {
-        text-align: center;
-    }
-    h1 {
-        font-family: 'Bitter', serif;
-    }
-    #timeline {
-        width: 100vw;
-        max-width: 700px;
-        display: block;
-        margin: auto;
-    }
-    .event-tile {
-        background-color: white;
-        color: black;
-    }
-    .event-tile h2 {
-        text-align: center;
-    }
-    #timeline hr {
-        width: 100%;
-        border: 2px solid white;
-        /* color: white; */
-    }
-    #timeline .age-marker {
-        background-color: rgba(13, 69, 190, 0.329);
-        text-align: center;
-        padding: 10px;
-    }
-    #huggards {
-        font-family: 'Merriweather', serif;
-        letter-spacing: normal;
-        text-align: center;
-        font-weight: bold;
-        font-size: 1em;
-        width: 250px;
-        color: white;
-        border: 2px solid white;
-        border-radius: 30px;
-        padding: 5px;
-        margin: auto;
-        margin-top: 50px;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-    #huggards:hover {
-        color: black;
-        border: 2px solid black;
-        background-color: white;
-    }
-</style>
 <body>
     <header>
         <h4>Welcome to the</h4>
@@ -85,42 +22,137 @@
         This is work in progress. Please check back in a couple of months.
     </p>
     <div id="timeline">
-        <div class="event-tile">
-            <h2>1959 - Antarctic Treaty</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
-        </div>
-        <hr>
-        <h2 class="age-marker">Heroic Age of Exploration</h2>
+        <h2 class="age-marker">IV Contemporary Antarctica</h2>
         <hr>
         <div class="event-tile">
-            <h2>1917 - Imperial Trans-Antarctic Expedition</h2>
+            <h2 class="year">2022 March 9</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/za.png">
+                <h2 class="headline">Endurance Discovered</h2>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
         </div>
+        <div class="event-tile">
+            <h2 class="year">2020 December 21</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/cl.png">
+                <h2 class="headline">Covid-19 reaches Antarctica</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2 class="year">1979 November 28</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/nz.png">
+                <h2 class="headline">Mount Erebus Disaster</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2 class="year">1959 December 1</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/aq-treaty.png">
+                <h2 class="headline">Antarctic Treaty</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        
+        <h2 class="age-marker">III Heroic Age of Exploration</h2>
         <hr>
-        <h2 class="age-marker">Discovery</h2>
+        <div class="event-tile">
+            <h2 class="year">1917</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/uk.png">
+                <h2 class="headline">Imperial Trans-Antarctic Expedition</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2 class="year">1911 December 14</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/no.png">
+                <h2 class="headline">Roald Amundsen reaches the South Pole</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        <div class="event-tile">
+            <h2 class="year">1907 - 1909</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/uk.png">
+                <h2 class="headline">Nimrod Expedition</h2>
+            </div>
+            <p>Ernest Shackleton<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        
+        <div class="event-tile">
+            <h2 class="year">1901 - 1904</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/uk.png">
+                <h2 class="headline">Discovery Expedition</h2>
+            </div>
+            <p>Robert Falcon Scott<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+
+        <div class="event-tile">
+            <h2 class="year">1898</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/bg.png">
+                <h2 class="headline">First wintering of the Antarctic</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+
+        
+        <h2 class="age-marker">II Discovery</h2>
         <hr>
+
         <div class="event-tile">
-            <h2>1853 - Landing on East Antarctica</h2>
+            <h2 class="year">1853</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/us.png">
+                <h2 class="headline">First Landing on Eastern Antarctica</h2>
+            </div>
+            <p>John Davis<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+        
+        <div class="event-tile">
+            <h2 class="year">1821</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/us.png">
+                <h2 class="headline">First Landing</h2>
+            </div>
+            <p>John Davis<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+        </div>
+
+        <div class="event-tile">
+            <h2 class="year">1820</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/ru.png">
+                <h2 class="headline">First Sighting of the Continent</h2>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
         </div>
+        
+        
         <div class="event-tile">
-            <h2>1821 - Landing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+            <h2 class="year">1773</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/uk-old.png">
+                <h2 class="headline">Crossing of the Antarctic Circle</h2>
+            </div>
+            <p>James Cook <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
         </div>
+        
         <div class="event-tile">
-            <h2>1819 - First Sighting (William Smith)</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
+            <h2 class="year">1675</h2>
+            <div class="flag-and-headline">
+                <img class="flag" src="flags/uk-old.png">
+                <h2 class="headline">Land discovered south of Antarctic Convergence</h2>
+            </div>
+            <p>Anthony de la Roche<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
         </div>
-        <div class="event-tile">
-            <h2>1773 - James Cook</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
-        </div>
-        <div class="event-tile">
-            <h2>1675 - Anthony de la Roche</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
-        </div>
-        <hr>
-        <h2 class="age-marker">Speculation & Legend</h2>
+
+        <h2 class="age-marker">I Speculation & Legend</h2>
         <hr>
         <div class="event-tile">
             <h2>c. 1200 - Hui Te Rangiora</h2>
@@ -131,8 +163,11 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima quaerat nemo velit! In quis voluptate accusamus illo libero laborum, repellat nobis vitae beatae ea atque voluptatem fugit placeat delectus.</p>
         </div>
     </div>
-    <div id="huggards" onclick="window.location.href='https://antonhuggard.com'">
-        website by Anton Huggard
-    </div>
+    <footer>
+        <div id="huggards" onclick="window.location.href='https://antonhuggard.com'">
+            website by Anton Huggard
+        </div>
+        &copy; Anton Huggard 2023. All rights reserved.
+    </footer>
 </body>
 </html>

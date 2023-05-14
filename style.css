@@ -1,0 +1,93 @@
+body {
+    border: 0;
+    margin: 0;
+    height: 100%;
+    background-image: url(antarctica-background.jpg);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+header, p {
+    text-align: center;
+}
+h1 {
+    font-family: 'Bitter', serif;
+}
+#timeline {
+    width: 100vw;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+.event-tile {
+    background-color: rgba(221, 245, 253, 0.836);
+    color: black;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+}
+.flag-and-headline {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.headline {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.event-tile .year {
+    font-size: 1.5em;
+    text-align: center;
+}
+.event-tile .flag {
+    height: 50px;
+}
+.event-tile p {
+    padding: 0 20px 0 20px;
+    text-align: left;
+    font-weight: 300;
+}
+
+#timeline hr {
+    width: 100%;
+    border: 2px solid white;
+    /* color: white; */
+}
+#timeline .age-marker {
+    background-color: rgba(13, 84, 150, 0.473);
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#huggards {
+    font-family: 'Merriweather', serif;
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    width: 250px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#huggards:hover {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+}
