@@ -10,13 +10,26 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+header {
+    height: 100vh;
+}
+header h4 {
+    padding-top: 10vh;
+    font-size: 2.5em;
+}
+header h2 {
+    font-size: 4em;
+}
+header h1 {
+    font-size: 5em;
+}
 header, p {
     text-align: center;
 }
 h1 {
     font-family: 'Bitter', serif;
 }
-#timeline {
+.timeline {
     width: 100vw;
     max-width: 700px;
     display: block;
@@ -53,15 +66,27 @@ h1 {
     font-weight: 300;
 }
 
-#timeline hr {
+.timeline hr {
     width: 100%;
     border: 2px solid white;
     /* color: white; */
 }
-#timeline .age-marker {
+.timeline .age-marker {
     background-color: rgba(13, 84, 150, 0.473);
     text-align: center;
     padding: 10px;
+}
+
+#legend {
+    background-image: url(backgrounds/2560px-OrteliusWorldMap.jpeg);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5vh;
 }
 
 footer {
