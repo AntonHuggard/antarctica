@@ -14,14 +14,27 @@ header {
     height: 100vh;
 }
 header h4 {
-    padding-top: 10vh;
+    padding-top: 5vh;
     font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
 }
 header h2 {
     font-size: 4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+}
+header h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    margin: 0 auto 0 auto;
 }
 header h1 {
     font-size: 5em;
+    margin-top: 10px;
+    letter-spacing: 0.125em;
 }
 header, p {
     text-align: center;
@@ -72,15 +85,13 @@ h1 {
     /* color: white; */
 }
 .timeline .age-marker {
-    background-color: rgba(13, 84, 150, 0.473);
+    background-color: rgba(13, 84, 150, 0.705);
     text-align: center;
     padding: 10px;
 }
 
 #legend {
     background-image: url(backgrounds/2560px-OrteliusWorldMap.jpeg);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,10 +99,31 @@ h1 {
     background-attachment: fixed;
     padding-top: 5vh;
 }
+#heroic {
+    background-image: url(backgrounds/ships-and-penguins.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#modern {
+    background-image: url(backgrounds/Amundsen-scott-station.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
 
 footer {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40vh;
     text-align: center;
 }
 #huggards {
@@ -106,7 +138,7 @@ footer {
     border-radius: 30px;
     padding: 5px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 50vh;
     margin-bottom: 20px;
     cursor: pointer;
     transition: 0.5s;
