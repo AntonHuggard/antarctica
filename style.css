@@ -32,9 +32,9 @@ header h3 {
     margin: 0 auto 0 auto;
 }
 header h1 {
-    font-size: 5em;
+    font-size: 12.5vw;
     margin-top: 10px;
-    letter-spacing: 0.125em;
+    /* letter-spacing: 0.125em; */
 }
 header, p {
     text-align: center;
@@ -73,6 +73,17 @@ h1 {
 .event-tile .flag {
     height: 50px;
 }
+.event-img {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+figcaption {
+    text-align: center;
+}
 .event-tile p {
     padding: 0 20px 0 20px;
     text-align: left;
@@ -92,12 +103,12 @@ h1 {
 
 #legend {
     background-image: url(backgrounds/2560px-OrteliusWorldMap.jpeg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 #heroic {
     background-image: url(backgrounds/ships-and-penguins.jpg);
