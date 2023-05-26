@@ -2,7 +2,7 @@ body {
     border: 0;
     margin: 0;
     height: 100%;
-    background-image: url(antarctica-background.jpg);
+    background-image: url(backgrounds/antarctica-background.jpg);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-repeat: no-repeat;
