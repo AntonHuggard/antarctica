@@ -53,6 +53,8 @@ h1 {
     color: black;
     padding: 5px;
     margin: 20px 0 20px 0;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 .flag-and-headline {
     width: 90%;
@@ -101,18 +103,9 @@ figcaption {
     padding: 10px;
 }
 
-#legend {
-    background-image: url(backgrounds/2560px-OrteliusWorldMap.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-#heroic {
-    background-image: url(backgrounds/ships-and-penguins.jpg);
+.timeline-background {
     height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,15 +114,19 @@ figcaption {
     padding-bottom: 5vh;
 }
 
+#legend {
+    background-image: url(backgrounds/2560px-OrteliusWorldMap.jpeg);
+}
+#discovery {
+    background-image: url(backgrounds/ships-and-penguins.jpg);
+    
+}
+#heroic {
+    background-image: url(backgrounds/Aurora_anchored.jpg);
+}
+
 #modern {
     background-image: url(backgrounds/Amundsen-scott-station.jpg);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
 }
 
 footer {
