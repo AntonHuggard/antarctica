@@ -114,6 +114,9 @@ figcaption {
     padding-bottom: 5vh;
 }
 
+#introduction {
+    background-image: url(backgrounds/Emperor_penguins.jpg);
+}
 #legend {
     background-image: url(backgrounds/2560px-OrteliusWorldMap.jpeg);
 }
